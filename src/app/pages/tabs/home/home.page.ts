@@ -11,6 +11,7 @@ import {
   IonRow,
   IonCol,
   IonSearchbar,
+  
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
@@ -20,6 +21,8 @@ import {
   notifications,
   options,
 } from 'ionicons/icons';
+import { ListHeadingComponent } from 'src/app/components/list-heading/list-heading.component';
+import { BannerComponent } from "src/app/components/banner/banner.component";
 
 @Component({
   selector: 'app-home',
@@ -37,7 +40,9 @@ import {
     IonItem,
     IonContent,
     IonHeader,
-    IonToolbar
+    IonToolbar,
+    ListHeadingComponent,
+    BannerComponent
 ],
 })
 export class HomePage implements OnInit {
